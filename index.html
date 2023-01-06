@@ -329,40 +329,38 @@
                             <h1 class="text-white mb-4 mt-5">Pesan Mejamu Sekarang</h1>
                             <form class="mb-5">
                                 <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent border-primary p-4"
+                                    <input id="wa_name" type="text"
+                                        class="form-control bg-transparent border-primary p-4  text-white"
                                         placeholder="Name" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent border-primary p-4"
+                                    <input id="wa_email" type="email"
+                                        class="form-control bg-transparent border-primary p-4  text-white"
                                         placeholder="Email" required="required" />
                                 </div>
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-transparent border-primary p-4 datetimepicker-input"
+                                        <input id="wa_date" type="text"
+                                            class="form-control bg-transparent border-primary p-4  text-white datetimepicker-input"
                                             placeholder="Date" data-target="#date" data-toggle="datetimepicker" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-transparent border-primary p-4 datetimepicker-input"
+                                        <input id="wa_time" type="text"
+                                            class="form-control bg-transparent border-primary p-4  text-white datetimepicker-input"
                                             placeholder="Time" data-target="#time" data-toggle="datetimepicker" />
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4"
-                                        style="height: 49px;">
-                                        <option selected>Person</option>
-                                        <option value="1">Person 1</option>
-                                        <option value="2">Person 2</option>
-                                        <option value="3">Person 3</option>
-                                        <option value="3">Person 4</option>
-                                    </select>
+                                    <input id="wa_person" type="text"
+                                        class="form-control bg-transparent border-primary p-4  text-white"
+                                        placeholder="Jumlah Orang" required="required" />
                                 </div>
 
                                 <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Pesan
+                                    <button class="send_form btn btn-primary btn-block font-weight-bold py-3"
+                                        type="submit">Pesan
                                         Sekarang</button>
                                 </div>
                             </form>
@@ -375,7 +373,7 @@
     <!-- Reservation End -->
 
 
-    <!-- Testimonial Start -->
+    <!-- Testimonial Start
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
@@ -387,12 +385,12 @@
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
                         <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
+                            <h4>Mutiara Juanita</h4>
+                            <i>UI/UX Designer</i>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem.
-                        Dolor tempor ipsum sanct clita</p>
+                    <p class="m-0">Saya suka sekali berkunjung ke Coffee Shop Lovers. Kopi yang disajikan selalu segar
+                        dan rasanya enak sekali. Pelayanannya juga ramah dan cepat. Terima kasih Coffee Shop Lovers!</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
@@ -429,8 +427,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Testimonial End -->
+    </div> Testimonial End -->
 
 
     <!-- Footer Start -->
