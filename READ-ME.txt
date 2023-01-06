@@ -1,4 +1,4 @@
-  =>  Template Name    : COFFEE - Coffee Shop HTML Template
+  =>  Template Name    : COFFEE - Coffee Shop Lovers
 
   =>  Template Link    : https://htmlcodex.com/coffee-shop-html-template
 
